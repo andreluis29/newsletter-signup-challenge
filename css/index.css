@@ -10,7 +10,7 @@
 
 body {
   font-family: generalFont;
-  background-color: #dcdcdc;
+  background-color: rgb(70, 69, 69);
 }
 
 .container {
@@ -93,18 +93,6 @@ input {
   margin-bottom: 20px;
 }
 
-.attribution {
-  color: rgb(250, 167, 0);
-  font-family: generalFontBold;
-  font-weight: 900;
-  text-align: center;
-}
-
-.attribution a {
-  color: black;
-  text-decoration: none;
-}
-
 .container-end {
   background-color: white;
   border-radius: 20px;
@@ -116,6 +104,7 @@ input {
   align-items: flex-start;
   margin: 150px auto;
   padding: 70px;
+  height: 500px;
   width: 25%;
 }
 
@@ -127,6 +116,7 @@ input {
 
 .bold {
   font-family: generalFontBold;
+  font-weight: 700;
 }
 
 .btnDismiss {
@@ -148,4 +138,16 @@ input {
   color: rgb(1, 1, 54);
   font-size: 3rem;
   font-family: generalFontBold;
+}
+
+.attribution {
+  color: white;
+  font-family: generalFontBold;
+  font-weight: 400;
+  text-align: center;
+}
+
+.attribution a {
+  color: black;
+  text-decoration: none;
 }
