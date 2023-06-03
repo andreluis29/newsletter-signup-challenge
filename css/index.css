@@ -1,0 +1,151 @@
+@font-face {
+  font-family: generalFont;
+  src: url("../assets/fonts/Roboto-Regular.ttf")
+}
+
+@font-face {
+  font-family: generalFontBold;
+  src: url("../assets/fonts/Roboto-Bold.ttf")
+}
+
+body {
+  font-family: generalFont;
+  background-color: #dcdcdc;
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px auto;
+  padding: 100px;
+  width: 50%;
+}
+
+.container-end {
+  background: red;
+}
+
+.forms-container {
+  padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitBtn {
+  border: 2px solid rgb(112, 106, 106);
+  border-radius: 20px;
+  background-color: rgb(129, 121, 121);
+  color: rgb(255, 255, 255);
+  font-family: generalFontBold;
+  width: 50%;
+  height: 60px;
+}
+
+.submitBtn:active {
+  background: orangered;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 10px;
+}
+
+li {
+  margin: 10px;
+}
+
+li img {
+  margin-right: 20px;
+}
+
+label {
+  margin: 10px;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.2em;
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.updated {
+  margin-bottom: 50px;
+}
+
+.updated-products {
+  margin-bottom: 20px;
+}
+
+.attribution {
+  color: rgb(250, 167, 0);
+  font-family: generalFontBold;
+  font-weight: 900;
+  text-align: center;
+}
+
+.attribution a {
+  color: black;
+  text-decoration: none;
+}
+
+.container-end {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  font-family: generalFont;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 150px auto;
+  padding: 70px;
+  width: 25%;
+}
+
+.container-end p {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.bold {
+  font-family: generalFontBold;
+}
+
+.btnDismiss {
+  border: 2px solid rgb(112, 106, 106);
+  border-radius: 20px;
+  background-color: rgb(129, 121, 121);
+  color: rgb(255, 255, 255);
+  font-family: generalFontBold;
+  width: 50%;
+  height: 50px;
+}
+
+.btnDismiss:hover {
+  background-color: rgb(250, 167, 0);
+  color: white;
+}
+
+.thanks {
+  color: rgb(1, 1, 54);
+  font-size: 3rem;
+  font-family: generalFontBold;
+}
