@@ -4,12 +4,12 @@ const containerEnd = document.querySelector('.hide');
 const button = document.querySelector('.submitBtn');
 const dismissButton = document.querySelector('.btnDismiss');
 
-formInput.addEventListener('change', () => {
+formInput.addEventListener('keyup', () => {
   if (formInput.value !== '' && formInput.value.includes("@")) {
     button.style = 'background-color: orange;';
     button.disabled = false;
   } else {
-    button.style = 'background-color: rgb(129, 121, 121);';
+    button.style = 'background-color: hsl(234, 29%, 20%);';
     button.disabled = true;
   }
 });
